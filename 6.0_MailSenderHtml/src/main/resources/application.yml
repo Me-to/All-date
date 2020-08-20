@@ -1,0 +1,7 @@
+spring:
+  mail:
+    host: smtp.163.com
+    username: zhangqianfun@163.com
+    #ÊÚÈ¨Âë
+    password: EBLFNNXFSFVARYSW
+    default-encoding: UTF-8

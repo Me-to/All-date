@@ -1,0 +1,31 @@
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+
+    freemarker:
+      cache: false # 缓存配置 开发阶段应该配置为false 因为经常会改
+      suffix: .html # 模版后缀名 默认为ftl
+      charset: UTF-8 # 文件编码
+      template-loader-path: classpath:/templates/
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/mqtt?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: zhangqian
+    driver-class-name: com.alibaba.druid.mock.MockDriver
+
+  security:
+    user:
+      name: admin
+      password: admin
+
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 10s
+      cookie:
+        http-only: true
+        secure: false

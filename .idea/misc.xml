@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/1_SpringSecurity_HttpBasic/pom.xml" />
+        <option value="$PROJECT_DIR$/2_Shiro_Springboot_jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/2.1_Shiro_Springboot_jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/2.2_Shiro_Springboot_jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/3.0_Vue/pom.xml" />
+        <option value="$PROJECT_DIR$/3.1_Vue_BootStrap/pom.xml" />
+        <option value="$PROJECT_DIR$/4.0_Ceshi_Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/4.1_Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/4.2_Mybatis_generator/pom.xml" />
+        <option value="$PROJECT_DIR$/4.3_Redis Cache/pom.xml" />
+        <option value="$PROJECT_DIR$/5.0_WxinPay/pom.xml" />
+        <option value="$PROJECT_DIR$/6.0_MailSenderHtml/pom.xml" />
+        <option value="$PROJECT_DIR$/7.0_Aop/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

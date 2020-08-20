@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+
+<input type="button" value="+" @click="add">
+    <span v-text="num"></span>
+    <input type="button" value="-" @click="dele">
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+      const app=new Vue({
+          el:"#app",
+          data:{
+              num:1
+          },
+          methods:{
+              add(){
+                  if (this.num<10){
+                      this.num++;
+
+                  }
+              },
+              dele(){
+                  if (this.num>0){
+                      this.num--;
+                  }
+
+              }
+          }
+      })
+</script>
+
+
+
+<!--<div id="app">-->
+<!--    <span>{{count}}</span>-->
+<!--    <input type="button" value="+" v-on:click="add">-->
+<!--</div>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
+<!--<script>-->
+<!--    const app=new Vue({-->
+<!--        el:"#app",-->
+<!--        data:{-->
+<!--            count:1,-->
+<!--        },-->
+<!--        methods: {-->
+<!--            add(){-->
+<!--                this.count++;-->
+<!--            }-->
+<!--        }-->
+<!--    });-->
+<!--</script>-->
+
+</body>
+</html>
